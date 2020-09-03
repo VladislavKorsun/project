@@ -1,0 +1,64 @@
+/* Header */
+.body{
+    font-family: Tahoma;
+}
+.header{
+    min-height: 300px;
+}
+.fon{
+    background-color: #78aced;
+}
+.logo{
+    margin-top: 50px;
+}
+.socicons{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.socicons a{
+    display: block;
+    width: 70px;
+    height: 90px;
+    background-color: #d7d7d7;
+    text-align: center;
+    transition: all 500ms ease;
+}
+.socicons a:hover{
+    opacity: .5;
+    
+}
+.socicons a i.fab{
+    color: black;
+    font-size: 50px;
+    line-height: 90px;
+}
+ul.menu{
+    margin: 0;
+    margin-top: 100px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+ul.menu li{
+    width: 165px;
+    height: 50px;
+    background-color: #d7d7d7;
+    text-align: center;
+    border-radius: 25% 25% 0 0;
+
+}
+ul.menu li a{
+    color: #000;
+    font-size: 16px;
+    line-height: 50px;
+    transition: all 500MS ease;
+}
+ul.menu li a:hover{
+    opacity: .5;
+    text-decoration: none;
+}
+a{
+    border-radius: 25%;
+}
